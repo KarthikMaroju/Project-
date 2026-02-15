@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:#111;
+    color:#fff;
+}
+
+/* HEADER */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    position:fixed;
+    width:100%;
+    background:#111;
+    z-index:1000;
+}
+
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#aaa;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ff5a00;
+}
+
+.btn{
+    background:#ff5a00;
+    border:none;
+    padding:10px 20px;
+    color:#fff;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+/* HERO */
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:150px 8% 80px;
+}
+
+.hero-content h1{
+    font-size:60px;
+}
+
+.small-text{
+    color:#ff5a00;
+    margin-bottom:10px;
+}
+
+.role{
+    margin:15px 0;
+    color:#aaa;
+}
+
+.social-icons i{
+    margin-right:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.social-icons i:hover{
+    color:#ff5a00;
+}
+
+.hero-image img{
+    width:400px;
+    border-radius:10px;
+}
+
+/* SERVICES */
+.services{
+    padding:80px 8%;
+}
+
+.service-container{
+    display:flex;
+    gap:30px;
+    margin-top:40px;
+}
+
+.service-card{
+    flex:1;
+    padding:40px;
+    background:#1a1a1a;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.service-card.active,
+.service-card:hover{
+    background:#ff5a00;
+}
+
+.service-card i{
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+/* STATS */
+.stats{
+    display:flex;
+    justify-content:space-around;
+    padding:60px 8%;
+    background:#1a1a1a;
+    margin-top:50px;
+}
+
+.stat h3{
+    font-size:30px;
+    color:#ff5a00;
+}
+
+/* VIDEOS */
+.videos{
+    padding:80px 8%;
+}
+
+.video-container{
+    display:flex;
+    gap:30px;
+    margin-top:40px;
+}
+
+.video-card{
+    position:relative;
+    flex:1;
+}
+
+.video-card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.play{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:30px;
+    color:#ff5a00;
+}
+
